@@ -1,0 +1,30 @@
+name: mobile_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^8.1.0
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.2
+  provider: ^6.0.1
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/           # ← covers john.png, waves.png, renzil.png, geberson.png
+    - assets/products/  # ← covers ALL images inside the products folder
